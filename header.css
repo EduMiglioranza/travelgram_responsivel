@@ -1,4 +1,6 @@
 header{
+    background-color: var(--surface-color);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,8 +42,14 @@ header{
     }
 }
 
-#profile{
+#menu-profile{
     & img{
         width: 2.5rem;
+    }
+}
+
+@media (width >= 80em) {
+    header{
+        padding: 1.25rem var(--p-2);
     }
 }

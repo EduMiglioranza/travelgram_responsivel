@@ -36,6 +36,7 @@
 }
 
 html{
+    color: var(--text-color-secondary);
     font-family: var(--ff);
     font-size: var(--fs-sm);
     font-weight: var(--fw-base);
@@ -57,12 +58,13 @@ h1{ /* Settings Titulo 1 */
 
 a {
     text-decoration: none;
+    color: var(--text-color-secondary);
+    cursor: pointer;
 }
 
 a:hover{
     text-decoration: underline;
     color: var(--brand-color);
-    cursor: pointer;
 }
 
 @media (width >= 80em) {
