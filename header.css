@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--p-1);
+
+    & nav {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+
+
+#logo{
+    & img {
+        width: 10rem;
+    }
+}
+
+#search{
+
+    & img{
+        width: 1.5rem;
+    }
+
+    img:nth-child(2){
+        display: none;
+    }
+}
+
+#search:hover{
+    img:nth-child(1){
+        display: none;
+    }
+
+    img:nth-child(2){
+        display: initial;
+    }
+}
+
+#profile{
+    & img{
+        width: 2.5rem;
+    }
+}
