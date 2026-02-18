@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--p-1);
+    padding: var(--p-1);
+
+    & span:nth-child(2){
+        display: flex;
+        gap: var(--p-1);
+    }
+}
+
+@media (width >= 80em) {
+    footer{
+        padding: 1.5rem var(--p-2);
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
