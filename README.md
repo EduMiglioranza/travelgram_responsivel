@@ -22,5 +22,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🖥️ Projeto
 
-Nesse projeto criei um layout do perfil de uma rede social de fotos de viagem. <br>
+Nesse projeto criei um layout do perfil de uma rede social de fotos de viagem, onde apliquei meus conhecimentos de responsividade.<br>
 Esse é um dos projetos desenvolvidos em aula na formação Full-stack, um de nossos conteúdos de especialização.
